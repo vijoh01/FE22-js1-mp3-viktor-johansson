@@ -71,7 +71,7 @@ search.addEventListener('click', (e) => {
 searchResults.addEventListener('click', (e) => {
     if (!searchFail) {
         currentSearch = e.target.innerText;
-        clearSuggestions();
+        
         getCountryFromLang(currentSearch);
     }
 })
